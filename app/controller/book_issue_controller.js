@@ -25,6 +25,6 @@ const createIssuedbooks= async (request, response) => {
 
 
 module.exports = { 
-    getbooks,
-    createBook,
+    getIssuedbooks,
+    createIssuedbooks,
 }

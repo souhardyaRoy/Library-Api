@@ -4,7 +4,7 @@ const studentcontroller = require('../controller/students_controller')
 
 Router.get('/', studentcontroller.getStudents); 
 Router.post('/', studentcontroller.createNewUser);
-Router.put('/', studentcontroller.updateUser);
-Router.delete('/', studentcontroller.deleteUser);
+//Router.put('/', studentcontroller.updateUser);
+//Router.delete('/', studentcontroller.deleteUser);
 
 module.exports = Router;
